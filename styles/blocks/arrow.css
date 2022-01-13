@@ -2,4 +2,15 @@
     background-color: var(--light-yellow);
     width: 33px;
     height: 58px;
+    color: var(--white);
+    position: absolute;
+    top: calc(50% - 29px);
+}
+
+.arrow.arrow-left {
+    left: 0;
+}
+
+.arrow.arrow-right {
+    right: 0;
 }
