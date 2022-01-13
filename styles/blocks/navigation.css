@@ -1,0 +1,32 @@
+.header__navigation {
+    background-color: var(--yellow);
+    margin-left: 40px;
+}
+
+.header__navigation-list {
+    display: flex;
+    padding-left: 0px;
+    margin: 5px 0px;
+}
+
+.header__navigation-item {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: var(--dark-yellow);
+    border-right: 1px solid;
+    padding-right: 10px;
+}
+
+.header__navigation-item:first-child {
+    padding-left: 40px;
+}
+
+.header__navigation-item:last-child {
+    padding-right: 20px;
+    border-right: none;
+}
+
+.fas {
+    margin-right: 5px;
+    margin-left: 10px;
+}

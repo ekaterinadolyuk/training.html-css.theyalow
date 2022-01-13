@@ -11,15 +11,20 @@
         <link href="styles/blocks/css-variables.css" type="text/css" rel="stylesheet">
         <link href="styles/blocks/body.css" type="text/css" rel="stylesheet">
         <link href="styles/blocks/site-name.css" rel="stylesheet" type="text/css">
+        <link href="styles/blocks/navigation.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header class="header">
-            <span class="header__site-name"><img src="images/logo.png" alt="Logo" class="header__site-logo">theyalow</span><span class="header__site-info">craft by css author.com</span>
-            <ul>
-                <li>about us</li>
-                <li>services</li>
-                <li>contact</li>
-            </ul>
+            <div class="header__information">
+                <span class="header__site-name"><img src="images/logo.png" alt="Logo" class="header__site-logo">theyalow</span><span class="header__site-info">craft by css author.com</span>
+            </div>
+            <nav class="header__navigation">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item"><i class="fas fa-user"></i>about us</li>
+                    <li class="header__navigation-item"><i class="fas fa-wrench"></i>services</li>
+                    <li class="header__navigation-item"><i class="fas fa-envelope"></i>contact</li>
+                </ul>
+            </nav>
         </header>
     </body>
 </html>

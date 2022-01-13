@@ -1,3 +1,8 @@
+.header {
+    display: flex;
+    align-items: baseline;
+}
+
 .header__site-name {
     text-transform: uppercase;
     margin-right: 5px;
