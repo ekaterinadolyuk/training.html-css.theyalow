@@ -9,9 +9,16 @@
     margin-right: 5px;
     font-size: xx-large;
     font-style: italic;
+    position: relative;
 }
 
 .header__site-info {
     text-transform: uppercase;
     font-size: 9px;
+}
+
+.header .header__site-logo1 {
+    position: absolute;
+    top: -49px;
+    left: -1px;
 }
