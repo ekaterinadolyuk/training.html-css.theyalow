@@ -1,6 +1,6 @@
 .suggestion {
     position: relative;
-    margin: 40px 0px;
+    margin: 60px 0px;
 }
 
 .suggestion .suggestion__content {
@@ -64,4 +64,12 @@
 
 .suggestion .suggestion__information {
     width: 50%;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.suggestion .suggestion__information--first-line {
+    color: var(--yellow);
 }
