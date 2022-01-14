@@ -70,6 +70,10 @@
     color: var(--white);
 }
 
+.suggestion .suggestion__information--first-line, .suggestion__information--second-line {
+    margin: 0px;
+}
+
 .suggestion .suggestion__information--first-line {
     color: var(--yellow);
 }
