@@ -1,3 +1,17 @@
 .suggestion {
     position: relative;
+    margin: 40px 0px;
+}
+
+.suggestion .suggestion__content {
+    display: flex;
+}
+
+.suggestion .suggestion__video {
+    position: relative;
+}
+
+.suggestion .suggestion__video-image {
+    width: 550px;
+    height: 328px;
 }

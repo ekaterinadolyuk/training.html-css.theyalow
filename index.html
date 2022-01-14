@@ -15,6 +15,7 @@
         <link href="styles/blocks/navigation.css" rel="stylesheet" type="text/css">
         <link href="styles/blocks/suggestion.css" rel="stylesheet" type="text/css">
         <link href="styles/blocks/arrow.css" rel="stylesheet" type="text/css">
+        <link href="styles/blocks/main-play.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header class="header panel">
@@ -35,15 +36,17 @@
             <div class="suggestion__left-arrow arrow arrow-left">
                 <i class="fas fa-chevron-left"></i>
             </div>
-            <div class="suggestion__video">
-                <img src="images/content/parrots-large.png" alt="Parrots" class="suggestion__video-image"/>
-                <i class="fas fa-play"></i>
-                <i class="fas fa-play"></i>
-                <div class="scrollbar"></div>
-            </div>
-            <div class="suggestion__information">
-                <h1>the cool</h1>
-                <h1>the minimal</h1>
+            <div class="panel suggestion__content">
+                <div class="suggestion__video">
+                    <img src="images/content/parrots-large.png" alt="Parrots" class="suggestion__video-image"/>
+                    <i class="fas fa-play main-play"></i>
+                    <i class="fas fa-play secondary-play"></i>
+                    <div class="scrollbar"></div>
+                </div>
+                <div class="suggestion__information">
+                    <h1>the cool</h1>
+                    <h1>the minimal</h1>
+                </div>
             </div>
             <div class="suggestion__right-arrow arrow arrow-right">
                 <i class="fas fa-chevron-right"></i>
