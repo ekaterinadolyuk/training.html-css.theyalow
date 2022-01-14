@@ -4,5 +4,23 @@
 
 .services .services__list {
     display: flex;
-    width: 100%;
+    justify-content: space-around;
+}
+
+.services .services__list-item {
+    border-right: 1px solid var(--grey);
+    border-left: 1px solid var(--grey);
+}
+
+.services .services__list-item:first-child {
+    border-right: none;
+}
+
+.services .services__list-item:last-child {
+    border-left: none;
+}
+
+.services .fas,.fab {
+    color: var(--yellow);
+    font-size: 60px;
 }
