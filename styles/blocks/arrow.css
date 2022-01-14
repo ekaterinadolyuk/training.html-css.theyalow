@@ -6,6 +6,7 @@
     position: absolute;
     top: calc(50% - 29px);
     text-align: center;
+    z-index: 1;
 }
 
 .arrow.arrow-left {

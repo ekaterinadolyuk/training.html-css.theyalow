@@ -5,13 +5,63 @@
 
 .suggestion .suggestion__content {
     display: flex;
+    align-items: center;
 }
 
 .suggestion .suggestion__video {
     position: relative;
+    width: 50%;
 }
 
 .suggestion .suggestion__video-image {
-    width: 550px;
-    height: 328px;
+    width: 100%;
+}
+
+.suggestion .suggestion__main-play {
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    text-align: center;
+}
+
+.suggestion .suggestion__video-controls {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.suggestion .suggestion__secondary-play {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.suggestion .suggestion__video-progressbar {
+    width: 70%;
+    height: 10px;
+    background-color: var(--yellow-shadow);
+    margin: 0 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.suggestion .suggestion__video-deadline {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    background-color: var(--yellow);
+    height: 10px;
+    border-radius: 20px;
+}
+
+.suggestion .fa-volume-up {
+    width: 10px;
+    margin: 0 0 0 10px;
+    color: var(--yellow);
+}
+
+.suggestion .suggestion__information {
+    width: 50%;
 }

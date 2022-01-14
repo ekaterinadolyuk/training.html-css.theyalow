@@ -1,0 +1,16 @@
+.play {
+    background-color: var(--yellow-opacity);
+    color: var(--white);
+}
+
+.play.play--main {
+    font-size: 30px;
+    width: 30px;
+    border-radius: 70px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.play .fas {
+    margin-left: 5px;
+}
