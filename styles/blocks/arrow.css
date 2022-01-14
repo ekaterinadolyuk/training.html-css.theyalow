@@ -5,6 +5,7 @@
     color: var(--white);
     position: absolute;
     top: calc(50% - 29px);
+    text-align: center;
 }
 
 .arrow.arrow-left {
@@ -13,4 +14,8 @@
 
 .arrow.arrow-right {
     right: 0;
+}
+
+.arrow .fas {
+    line-height: 58px;
 }
