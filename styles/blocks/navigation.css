@@ -21,14 +21,12 @@
 
 .header__navigation-list {
     display: flex;
-    padding-left: 0px;
     margin: 5px 0px;
     background-color: var(--yellow);
     position: absolute;
     top: 2px;
     left: 8px;
-    width: 394.375px;
-    height: 25px;
+    padding: 5px 10px 5px 40px;
 }
 
 .header .header__navigation-item {
@@ -38,10 +36,6 @@
     border-right: 1px solid;
     padding-right: 10px;
     padding-top: 5px;
-}
-
-.header .header__navigation-item:first-child {
-    padding-left: 40px;
 }
 
 .header .header__navigation-item:last-child {
