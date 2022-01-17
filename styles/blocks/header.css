@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     color: var(--white);
-    margin-top: 35px;
+    margin-top: 50px;
+    position: relative;
 }
 
 .header__site-name {
@@ -10,7 +11,7 @@
     margin-right: 5px;
     font-size: xx-large;
     font-style: italic;
-    position: relative;
+    padding-left: 86px;
 }
 
 .header__site-info {
@@ -18,8 +19,14 @@
     font-size: 9px;
 }
 
+.header .header__site-logo {
+    position: absolute;
+    top: -22px;
+    left: 0;
+}
+
 .header .header__site-logo1 {
     position: absolute;
-    top: -49px;
+    top: -22px;
     left: -1px;
 }
