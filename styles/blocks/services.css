@@ -5,22 +5,31 @@
 .services .services__list {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .services .services__list-item {
-    border-right: 1px solid var(--grey);
-    border-left: 1px solid var(--grey);
+    width: 35%;
+    text-align: center;
+    padding: 30px 0;
 }
 
 .services .services__list-item:first-child {
-    border-right: none;
+    border-left: 1px solid var(--grey);
+    border-right: 1px solid var(--grey);
 }
 
 .services .services__list-item:last-child {
-    border-left: none;
+    border-right: 1px solid var(--grey);
+    border-left: 1px solid var(--grey);
 }
 
 .services .fas,.fab {
     color: var(--yellow);
     font-size: 60px;
+}
+
+.services .services__item-name {
+    text-transform: uppercase;
+    color: var(--black);
 }
