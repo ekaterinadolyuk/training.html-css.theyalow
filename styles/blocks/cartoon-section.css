@@ -1,0 +1,103 @@
+.cartoon-section {
+    background-image: url("../../images/layers/cartoon-layer.png");
+    background-size: cover;
+    background-color: var(--dark-orange);
+    padding-bottom: 30px;
+}
+
+.cartoon-section .cartoon-section__name {
+    margin: 0;
+    padding: 40px 0;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.cartoon-section .cartoon-section__panel {
+    display: flex;
+}
+
+.cartoon-section .cartoon_section__item {
+    display: flex;
+    background-color: var(--orange);
+    margin-right: 35px;
+}
+
+.cartoon-section .cartoon-section__text{
+    width: 50%;
+    color: var(--white);
+    font-size: 28px;
+    padding: 35px;
+    margin: 0;
+}
+
+.cartoon-section .cartoon-section__animation {
+    background-image: url("../../images/content/monkey-small.png");
+    position: relative;
+    width: 50%;
+    margin-left: -55px;
+}
+
+.cartoon-section .play {
+    position: absolute;
+    top: calc(50% - 29px);
+    left: calc(50% - 23px);
+}
+
+.cartoon-section .cartoon-section__social-network {
+    width: 50%;
+    background-color: var(--orange);
+    text-align: center;
+}
+
+.cartoon-section .cartoon-section__item-number {
+    color: var(--white);
+    text-align: right;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.cartoon-section .fab.fa-twitter {
+    color: var(--dark-orange);
+    font-size: 160px;
+}
+
+.cartoon-section .cartoon-section__date {
+    background-color: var(--medium-orange);
+    width: 115px;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+.cartoon-section .cartoon-section__date-number {
+    font-size: 50px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.cartoon-section .cartoon-section__month {
+    color: var(--light-brown);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.cartoon-section .cartoon-section__scroll-bar {
+    width: 80%;
+    height: 12px;
+    border-radius: 10px;
+    background-color: var(--white-opacity);
+    margin: 30px auto;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.cartoon-section .cartoon-section__scroll-bar-item {
+    width: 20%;
+    height: 12px;
+    border-radius: 10px;
+    background-color: var(--orange);
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
