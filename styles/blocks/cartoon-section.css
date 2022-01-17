@@ -21,6 +21,7 @@
     display: flex;
     background-color: var(--orange);
     margin-right: 35px;
+    position: relative;
 }
 
 .cartoon-section .cartoon-section__text{
@@ -48,6 +49,7 @@
     width: 50%;
     background-color: var(--orange);
     text-align: center;
+    position: relative;
 }
 
 .cartoon-section .cartoon-section__item-number {
@@ -61,6 +63,20 @@
 .cartoon-section .fab.fa-twitter {
     color: var(--dark-orange);
     font-size: 160px;
+}
+
+.cartoon-section .cartoon-section__plus-item {
+    position: absolute;
+    bottom: 10px;
+    right: calc(50% - 3px);
+    color: var(--white);
+}
+
+.cartoon-section .cartoon-section__plus-network {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--white);
 }
 
 .cartoon-section .cartoon-section__date {
