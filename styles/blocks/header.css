@@ -14,14 +14,14 @@
 .header__site-name {
     text-transform: uppercase;
     margin-right: 5px;
-    font-size: xx-large;
+    font-size: 43px;
     font-style: italic;
     padding-left: 86px;
 }
 
 .header__site-info {
     text-transform: uppercase;
-    font-size: 9px;
+    font-size: 13px;
 }
 
 .header .header__site-logo {
