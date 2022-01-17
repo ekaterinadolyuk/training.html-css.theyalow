@@ -1,14 +1,13 @@
 .header .header__navigation {
     margin-left: 40px;
     position: relative;
+    width: 50%;
 }
 
 .header .header__navigation-shadow--first {
     background-color: var(--yellow-shadow);
     width: 394.375px;
     height: 25px;
-    position: absolute;
-    top: 5px;
 }
 
 .header .header__navigation-shadow--second {
@@ -16,8 +15,8 @@
     width: 394.375px;
     height: 25px;
     position: absolute;
-    top: 10px;
-    left: 5px;
+    top: 3px;
+    left: 4px;
 }
 
 .header__navigation-list {
@@ -26,8 +25,8 @@
     margin: 5px 0px;
     background-color: var(--yellow);
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 2px;
+    left: 8px;
     width: 394.375px;
     height: 25px;
 }
