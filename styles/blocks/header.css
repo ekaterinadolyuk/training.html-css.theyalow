@@ -17,6 +17,7 @@
     font-size: 43px;
     font-style: italic;
     padding-left: 86px;
+    text-shadow: 2px 2px var(--light-black);
 }
 
 .header__site-info {
