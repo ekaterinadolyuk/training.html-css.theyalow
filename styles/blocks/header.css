@@ -37,7 +37,7 @@
     left: -1px;
 }
 
-.header .header__link:link {
+.header .header__link:link, .header .header__link:visited {
     color: var(--white);
     text-decoration: none;
 }
