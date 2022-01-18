@@ -36,3 +36,12 @@
     top: -22px;
     left: -1px;
 }
+
+.header .header__link:link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header .header__link:hover {
+    color: var(--yellow);
+}
