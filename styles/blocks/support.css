@@ -1,4 +1,66 @@
 .support {
-    background-image: url("../../images/layers/support-layer.png");
-    background-size: color;
+    background-image: url("../../images/layers/grey-layer.png");
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
+
+.support .support__title {
+    margin: 0 0 50px 0;
+    font-size: 32px;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.support .support__devices {
+    display: flex;
+    align-items: center;
+}
+
+.support .support__block {
+    position: relative;
+}
+
+.support .support-promotion {
+    position: absolute;
+    top: -55px;
+    left: -25;
+    background-color: var(--yellow) ;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 50px 10px;
+    border-radius: 67px;
+}
+
+.support .support__item {
+    margin-right: 15px;
+}
+
+.support .support__item:last-child {
+    margin-top: 110px;
+    margin-right: 40px;
+}
+
+.support .support__content {
+    display: flex;
+}
+
+.support .support__list {
+    line-height: 2;
+    font-size: 21px;
+    color: var(--white);
+}
+
+.support .support__list {
+    list-style: none; 
+  }
+  
+.support .support__list .support__list-item::before {
+    content: "\2022";
+    color: var(--yellow);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
