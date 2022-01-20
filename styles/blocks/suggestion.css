@@ -33,11 +33,6 @@
     margin: 0 10px;
 }
 
-.suggestion .suggestion__secondary-play {
-    padding: 5px;
-    margin-left: 15px;
-}
-
 .suggestion .suggestion__video-progressbar {
     width: 70%;
     height: 10px;
