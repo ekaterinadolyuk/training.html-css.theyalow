@@ -11,6 +11,11 @@
     padding: 20px;
 }
 
+.play.play--secondary {
+    padding: 5px;
+    margin-left: 15px;
+}
+
 .play .fas {
     margin-left: 5px;
 }
