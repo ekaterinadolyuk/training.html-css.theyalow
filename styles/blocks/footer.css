@@ -36,7 +36,8 @@
     text-shadow: 2px 2px var(--light-black);
 }
 
-.footer .footer__link:link, .footer .footer__link:visited {
+.footer .footer__link:link,
+.footer .footer__link:visited {
     color: var(--white);
     text-decoration: none;
 }
