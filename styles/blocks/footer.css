@@ -14,12 +14,18 @@
 
 .footer .footer__site-information {
     display: flex;
+}
+
+.footer .footer__logo-images {
     position: relative;
+    width: 80px;
+    height: 80px;
 }
 
 .footer .footer__logo,
 .footer .footer__logo-shadow {
     height: 100%;
+    width: 100%;
 }
 
 .footer .footer__logo-shadow {
@@ -34,6 +40,7 @@
     font-size: 32px;
     font-style: italic;
     text-shadow: 2px 2px var(--light-black);
+    margin-bottom: 0;
 }
 
 .footer .footer__link:link,
