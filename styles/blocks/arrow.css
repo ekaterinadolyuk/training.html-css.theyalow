@@ -1,12 +1,11 @@
 .arrow {
     --arrow-height: 58px;
-    --half-arrow-height: 29px;
     background-color: var(--light-yellow);
     width: 33px;
     height: var(--arrow-height);
     color: var(--white);
     position: absolute;
-    top: calc(50% - var(--half-arrow-height));
+    top: calc(50% - var(--arrow-height) / 2);
     text-align: center;
     z-index: 1;
 }
@@ -20,5 +19,5 @@
 }
 
 .arrow .fas {
-    line-height: 58px;
+    line-height: calc(var(--arrow-height) / 2);
 }
