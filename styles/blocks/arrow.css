@@ -1,7 +1,8 @@
 .arrow {
+    --arrow-height: 58px;
     background-color: var(--light-yellow);
     width: 33px;
-    height: 58px;
+    height: var(--arrow-height);
     color: var(--white);
     position: absolute;
     top: calc(50% - 29px);
