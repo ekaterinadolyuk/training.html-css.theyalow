@@ -66,3 +66,13 @@
     width: 1em;
     margin-left: -1em;
   }
+
+  @media (max-width: 480px) {
+    .support .support__title {
+        margin: 0 5px 70px 5px;
+    }
+
+    .support .support__list {
+        display: none;
+    }
+  }
