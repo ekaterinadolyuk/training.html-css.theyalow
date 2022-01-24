@@ -1,11 +1,12 @@
 .arrow {
     --arrow-height: 58px;
+    --half-arrow-height: 29px;
     background-color: var(--light-yellow);
     width: 33px;
     height: var(--arrow-height);
     color: var(--white);
     position: absolute;
-    top: calc(50% - 29px);
+    top: calc(50% - var(--half-arrow-height));
     text-align: center;
     z-index: 1;
 }
