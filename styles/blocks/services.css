@@ -28,3 +28,9 @@
     text-transform: uppercase;
     color: var(--black);
 }
+
+@media (max-width: 480px) {
+    .services .services__list-item {
+        border: none;
+    }
+}
