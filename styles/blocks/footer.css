@@ -17,8 +17,9 @@
     position: relative;
 }
 
-.footer .footer__logo {
-    margin-left: 2px;
+.footer .footer__logo,
+.footer .footer__logo-shadow {
+    height: 100%;
 }
 
 .footer .footer__logo-shadow {
