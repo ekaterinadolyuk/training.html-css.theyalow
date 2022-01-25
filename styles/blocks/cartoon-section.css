@@ -63,6 +63,13 @@
     margin-right: 15px;
 }
 
+.cartoon-section .cartoon-section__fab {
+    height: calc(100% - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cartoon-section .fab.fa-twitter {
     color: var(--dark-orange);
     font-size: 160px;
