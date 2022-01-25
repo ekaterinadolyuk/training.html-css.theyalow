@@ -24,8 +24,9 @@
     position: relative;
 }
 
-.cartoon-section .cartoon-section__text{
-    width: 50%;
+.cartoon-section .cartoon-section__text {
+    box-sizing: border-box;
+    width: 55%;
     color: var(--white);
     font-size: 28px;
     padding: 35px;
@@ -34,15 +35,16 @@
 
 .cartoon-section .cartoon-section__animation {
     background-image: url("../../images/content/monkey-small.png");
+    background-position-x: -30px;
+    background-size: cover;
     position: relative;
-    width: 50%;
-    margin-left: -55px;
+    width: 45%;
 }
 
 .cartoon-section .play {
     position: absolute;
-    top: calc(50% - 29px);
-    left: calc(50% - 23px);
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
 }
 
 .cartoon-section .cartoon-section__social-network {
@@ -103,17 +105,16 @@
     height: 12px;
     border-radius: 10px;
     background-color: var(--white-opacity);
-    margin: 30px auto;
-    margin-bottom: 0;
+    margin: 30px auto 0 auto;
     position: relative;
 }
 
 .cartoon-section .cartoon-section__scroll-bar-item {
     width: 20%;
-    height: 12px;
+    height: 100%;
     border-radius: 10px;
     background-color: var(--orange);
     position: absolute;
     top: 0;
-    left: 250px;
+    left: 30%;
 }
