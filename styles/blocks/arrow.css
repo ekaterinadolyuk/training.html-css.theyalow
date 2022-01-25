@@ -19,5 +19,5 @@
 }
 
 .arrow .fas {
-    line-height: calc(var(--arrow-height) / 2);
+    line-height: var(--arrow-height);
 }
