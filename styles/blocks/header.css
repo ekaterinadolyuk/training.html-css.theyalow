@@ -53,8 +53,3 @@
 .header .header__link:hover {
     color: var(--yellow);
 }
-
-.header .header__navigation {
-    margin-left: 40px;
-    position: relative;
-}
