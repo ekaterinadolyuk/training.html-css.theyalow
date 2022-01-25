@@ -70,3 +70,18 @@
 .suggestion .suggestion__information--first-line {
     color: var(--yellow);
 }
+
+@media (max-width: 640px) {
+
+    .suggestion {
+        margin: 0px;
+    }
+
+    .suggestion .suggestion__information {
+        display: none;
+    }
+
+    .suggestion .suggestion__video {
+        width: 100%;
+    }
+}

@@ -21,3 +21,9 @@
 .arrow .fas {
     line-height: var(--arrow-height);
 }
+
+@media (max-width: 640px) {
+    .arrow {
+        display: none;
+    }
+}
