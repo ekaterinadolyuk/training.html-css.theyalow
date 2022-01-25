@@ -10,7 +10,7 @@
 .services .services__list-item {
     width: 33%;
     text-align: center;
-    padding: 30px 0;
+    padding: 48px 0 2px 0;
     border-left: 1px solid var(--grey);
 }
 
@@ -21,12 +21,14 @@
 .services .fas,
 .services .fab {
     color: var(--yellow);
-    font-size: 60px;
+    font-size: 89px;
 }
 
 .services .services__item-name {
     text-transform: uppercase;
     color: var(--black);
+    font-size: 25px;
+    margin-top: 13px;
 }
 
 @media (max-width: 640px) {
