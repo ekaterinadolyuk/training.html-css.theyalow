@@ -22,6 +22,7 @@
     background-color: var(--orange);
     margin-right: 35px;
     position: relative;
+    width: 70%;
 }
 
 .cartoon-section .cartoon-section__text {
@@ -48,7 +49,7 @@
 }
 
 .cartoon-section .cartoon-section__social-network {
-    width: 50%;
+    width: 30%;
     background-color: var(--orange);
     text-align: center;
     position: relative;
