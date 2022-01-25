@@ -6,14 +6,13 @@
 .play.play--main {
     font-size: 30px;
     width: 30px;
-    border-radius: 70px;
+    border-radius: 50%;
     line-height: 30px;
     padding: 20px;
 }
 
 .play.play--secondary {
     padding: 5px;
-    margin-left: 15px;
 }
 
 .play .fas {
