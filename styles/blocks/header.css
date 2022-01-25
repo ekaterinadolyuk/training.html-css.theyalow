@@ -53,3 +53,37 @@
 .header .header__link:hover {
     color: var(--yellow);
 }
+
+@media (max-width:640px) {
+
+    .header {
+        margin-top: 0px;
+        background-image: linear-gradient(var(--grey-light), var(--grey-gradient));
+    }
+
+    .header .header__information {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+    }
+
+    .header .header__logo {
+        position: relative;
+        width: 43px;
+        height: 43px;
+    }
+
+    .header .header__site-name {
+        text-transform: uppercase;
+        margin-right: 5px;
+        font-size: 17px;
+        font-style: italic;
+    }
+
+    .header .header__site-info {
+        display: none;
+    }
+
+    
+}
