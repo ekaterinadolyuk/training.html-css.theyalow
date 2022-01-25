@@ -11,8 +11,16 @@
     padding: 20px;
 }
 
+.play.play--main:hover {
+    cursor: pointer;
+}
+
 .play.play--secondary {
     padding: 5px;
+}
+
+.play.play--secondary:hover {
+    cursor: pointer;
 }
 
 .play .fas {
