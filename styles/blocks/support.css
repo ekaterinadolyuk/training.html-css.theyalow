@@ -21,7 +21,7 @@
     display: flex;
     align-items: flex-end;
     margin-right: 40px;
-    width: 70%;
+    width: 65%;
 }
 
 .support .support__block {
@@ -51,7 +51,7 @@
     font-size: 21px;
     color: var(--white);
     list-style: none; 
-    width: 30%;
+    width: 35%;
 }
 
 .support .support__item {
