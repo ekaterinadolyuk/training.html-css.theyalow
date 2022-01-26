@@ -1,0 +1,87 @@
+.suggestion {
+    position: relative;
+    margin: 48px 0px 89px 0px;
+}
+
+.suggestion .suggestion__content {
+    display: flex;
+    align-items: center;
+}
+
+.suggestion .suggestion__video {
+    position: relative;
+    width: 55%;
+}
+
+.suggestion .suggestion__video-image {
+    width: 100%;
+}
+
+.suggestion .suggestion__main-play {
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    text-align: center;
+}
+
+.suggestion .suggestion__video-controls {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    width: calc(100% - 35px);
+    margin: 0 10px 0 25px;
+}
+
+.suggestion .suggestion__video-progressbar {
+    flex: 1;
+    height: 10px;
+    background-color: var(--yellow-shadow);
+    margin: 0 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.suggestion .suggestion__video-deadline {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    background-color: var(--yellow);
+    height: 10px;
+    border-radius: 20px;
+}
+
+.suggestion .fa-volume-up {
+    color: var(--yellow);
+}
+
+.suggestion .suggestion__information {
+    width: 45%;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.suggestion .suggestion__information--first-line, .suggestion__information--second-line {
+    margin: 0px;
+}
+
+.suggestion .suggestion__information--first-line {
+    color: var(--yellow);
+}
+
+@media (max-width: 640px) {
+
+    .suggestion {
+        margin: 0px;
+    }
+
+    .suggestion .suggestion__information {
+        display: none;
+    }
+
+    .suggestion .suggestion__video {
+        width: 100%;
+    }
+}

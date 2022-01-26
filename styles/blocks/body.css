@@ -1,0 +1,14 @@
+body {
+    font-family: 'Poppins';
+    background-image: url("../../images/layers/body-layer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 640px) {
+
+    body {
+        background-image: none;
+    }
+    
+}
