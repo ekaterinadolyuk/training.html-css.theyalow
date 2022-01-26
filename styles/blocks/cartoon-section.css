@@ -179,15 +179,17 @@
         background-color: var(--yellow);
         display: flex;
         justify-content: space-between;
-        padding: 25px 35px 10px 45px;
+        padding: 25px 25px 10px 0px;
     }
 
     .cartoon-section .cartoon-section__fab {
-        justify-content: initial;
+        height: auto;
+        width: 50%;
     }
 
     .cartoon-section .cartoon-section__messages {
         display: block;
+        width: 50%;
     }
 
     .cartoon-section .cartoon-section__messages-item {
@@ -195,8 +197,24 @@
         color: #A09F9F;
         margin-bottom: 20px;
         font-size: 12px;
-        padding: 5px 20px 5px 10px;
+        padding: 5px 15px 5px 10px;
         border-radius: 10px;
+    }
+
+    .cartoon-section .cartoon-section__messages-field {
+        position: relative;
+    }
+
+    .cartoon-section .cartoon-section__messages-part {
+        position: absolute;
+        top: calc(50% - 7px);
+        left: -5px;
+        width: 0; 
+        height: 0; 
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent; 
+        
+        border-right: 7px solid var(--white); 
     }
 
     .cartoon-section .cartoon-section__messages-sender {
@@ -221,6 +239,7 @@
         background-image: linear-gradient(var(--orange), var(--dark-orange));
         color: var(--white);
         font-size: 12px;
+        border-left: none;
     }
 
     .cartoon-section .cartoon-section__date {
