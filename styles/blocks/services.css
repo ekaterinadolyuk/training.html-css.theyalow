@@ -35,4 +35,8 @@
     .services .services__list-item {
         border: none;
     }
+
+    .services .services__list-item:last-child {
+        border: none;
+    }
 }
