@@ -193,7 +193,7 @@
     }
 
     .cartoon-section .cartoon-section__messages-item {
-        background-color: var(--white);
+        background-color: var(--honey);
         color: #A09F9F;
         margin-bottom: 20px;
         font-size: 12px;
@@ -205,6 +205,10 @@
         position: relative;
     }
 
+    .cartoon-section .cartoon-section__messages-field--my-message .cartoon-section__messages-item {
+        background-color: var(--white);
+    }
+
     .cartoon-section .cartoon-section__messages-part {
         position: absolute;
         top: calc(50% - 7px);
@@ -214,7 +218,11 @@
         border-top: 7px solid transparent;
         border-bottom: 7px solid transparent; 
         
-        border-right: 7px solid var(--white); 
+        border-right: 7px solid var(--honey); 
+    }
+
+    .cartoon-section .cartoon-section__messages-field--my-message .cartoon-section__messages-part {
+        border-right-color: var(--white);
     }
 
     .cartoon-section .cartoon-section__messages-sender {
@@ -224,11 +232,13 @@
     .cartoon-section .cartoon-section__sender-field,
     .cartoon-section .cartoon-section__button {
         border: 1px solid var(--light-orange);
+        cursor: pointer;
     }
 
     .cartoon-section .cartoon-section__sender-field {
         border-top-left-radius: 6px;
         border-bottom-left-radius: 6px;
+        width: 80%;
     }
 
     .cartoon-section .cartoon-section__button {
@@ -240,6 +250,12 @@
         color: var(--white);
         font-size: 12px;
         border-left: none;
+        width: 20%;
+    }
+
+    .cartoon-section .cartoon-section__button:active {
+        background-image: none;
+        background-color: var(--medium-orange);
     }
 
     .cartoon-section .cartoon-section__date {
