@@ -19,13 +19,13 @@
 
 .cartoon-section .cartoon_section__item {
     display: flex;
-    background-color: var(--orange);
     margin-right: 35px;
-    position: relative;
     width: 70%;
 }
 
 .cartoon-section .cartoon-section__text {
+    background-color: var(--orange);
+    position: relative;
     box-sizing: border-box;
     width: 55%;
     color: var(--white);
@@ -78,7 +78,7 @@
 .cartoon-section .cartoon-section__plus-item {
     position: absolute;
     bottom: 10px;
-    right: calc(50% - 3px);
+    right: 20px;
     color: var(--white);
 }
 
@@ -125,4 +125,63 @@
     position: absolute;
     top: 0;
     left: 30%;
+}
+
+@media (max-width: 640px) {
+
+    .cartoon-section {
+        background-image: none;
+        background-color: var(--white);
+        padding: 0;
+    }
+
+    .cartoon-section .cartoon-section__name {
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__panel {
+        display: block;
+    }
+
+    .cartoon-section .cartoon_section__item {
+        width: calc(100% - 10px);
+        margin: 0 5px 0 5px;
+    }
+
+    .cartoon-section .cartoon-section__text {
+        font-size: 21px;
+        padding: 25px;
+        margin-right: 5px;
+        width: calc(50% - 5px);
+    }
+
+    .cartoon-section .cartoon-section__animation {
+        width: 50%;
+    }
+
+    .cartoon-section .cartoon-section__item-number {
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__plus-network{
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__social-network {
+        width: 100%;
+        margin-top: 5px;
+        text-align: initial;
+    }
+
+    .cartoon-section .cartoon-section__fab {
+        justify-content: initial;
+    }
+
+    .cartoon-section .cartoon-section__date {
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__scroll-bar {
+        display: none;
+    }
 }
