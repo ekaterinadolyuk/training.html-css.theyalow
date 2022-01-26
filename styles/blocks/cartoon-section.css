@@ -173,13 +173,54 @@
 
     .cartoon-section .cartoon-section__social-network {
         width: 100%;
+        box-sizing: border-box;
         margin-top: 5px;
         text-align: initial;
         background-color: var(--yellow);
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 35px 10px 45px;
     }
 
     .cartoon-section .cartoon-section__fab {
         justify-content: initial;
+    }
+
+    .cartoon-section .cartoon-section__messages {
+        display: block;
+    }
+
+    .cartoon-section .cartoon-section__messages-item {
+        background-color: var(--white);
+        color: #A09F9F;
+        margin-bottom: 20px;
+        font-size: 12px;
+        padding: 5px 20px 5px 10px;
+        border-radius: 10px;
+    }
+
+    .cartoon-section .cartoon-section__messages-sender {
+        display: flex;
+    }
+
+    .cartoon-section .cartoon-section__sender-field,
+    .cartoon-section .cartoon-section__button {
+        border: 1px solid var(--light-orange);
+    }
+
+    .cartoon-section .cartoon-section__sender-field {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .cartoon-section .cartoon-section__button {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background-image: linear-gradient(var(--orange), var(--dark-orange));
+        color: var(--white);
+        font-size: 12px;
     }
 
     .cartoon-section .cartoon-section__date {
