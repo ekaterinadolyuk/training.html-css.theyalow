@@ -1,0 +1,10 @@
+.panel {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+    .panel {
+        max-width: initial;
+    }
+}

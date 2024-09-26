@@ -1,0 +1,28 @@
+.play {
+    background-color: var(--yellow-opacity);
+    color: var(--white);
+}
+
+.play.play--main {
+    font-size: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.play.play--main:hover {
+    cursor: pointer;
+}
+
+.play.play--secondary {
+    padding: 5px;
+}
+
+.play.play--secondary:hover {
+    cursor: pointer;
+}
+
+.play .fas {
+    margin-left: 5px;
+}

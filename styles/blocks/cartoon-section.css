@@ -1,0 +1,268 @@
+.cartoon-section {
+    background-image: url("../../images/layers/cartoon-layer.png");
+    background-size: cover;
+    background-color: var(--dark-orange);
+    padding-bottom: 30px;
+}
+
+.cartoon-section .cartoon-section__name {
+    margin: 0;
+    padding: 40px 0;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.cartoon-section .cartoon-section__panel {
+    display: flex;
+}
+
+.cartoon-section .cartoon_section__item {
+    display: flex;
+    margin-right: 35px;
+    width: 70%;
+}
+
+.cartoon-section .cartoon-section__text {
+    background-color: var(--orange);
+    position: relative;
+    box-sizing: border-box;
+    width: 55%;
+    color: var(--white);
+    font-size: 28px;
+    padding: 35px;
+    margin: 0;
+}
+
+.cartoon-section .cartoon-section__animation {
+    background-image: url("../../images/content/monkey-small.png");
+    background-position-x: -30px;
+    background-size: cover;
+    position: relative;
+    width: 45%;
+}
+
+.cartoon-section .play {
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+}
+
+.cartoon-section .cartoon-section__social-network {
+    width: 30%;
+    background-color: var(--orange);
+    text-align: center;
+    position: relative;
+}
+
+.cartoon-section .cartoon-section__item-number {
+    color: var(--white);
+    text-align: right;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.cartoon-section .cartoon-section__fab {
+    height: calc(100% - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartoon-section .fab.fa-twitter {
+    color: var(--dark-orange);
+    font-size: 160px;
+}
+
+.cartoon-section .cartoon-section__plus-item {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: var(--white);
+}
+
+.cartoon-section .cartoon-section__plus-network {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--white);
+}
+
+.cartoon-section .cartoon-section__date {
+    background-color: var(--medium-orange);
+    width: 115px;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+.cartoon-section .cartoon-section__date-number {
+    font-size: 50px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.cartoon-section .cartoon-section__month {
+    color: var(--light-brown);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.cartoon-section .cartoon-section__scroll-bar {
+    width: 80%;
+    height: 12px;
+    border-radius: 10px;
+    background-color: var(--white-opacity);
+    margin: 30px auto 0 auto;
+    position: relative;
+}
+
+.cartoon-section .cartoon-section__scroll-bar-item {
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--orange);
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.cartoon-section .cartoon-section__messages {
+    display: none;
+}
+
+@media (max-width: 640px) {
+
+    .cartoon-section {
+        background-image: none;
+        background-color: var(--white);
+        padding: 0;
+    }
+
+    .cartoon-section .cartoon-section__name {
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__panel {
+        display: block;
+    }
+
+    .cartoon-section .cartoon_section__item {
+        width: calc(100% - 10px);
+        margin: 0 5px 0 5px;
+    }
+
+    .cartoon-section .cartoon-section__text {
+        font-size: 21px;
+        padding: 25px;
+        margin-right: 5px;
+        width: calc(50% - 5px);
+    }
+
+    .cartoon-section .cartoon-section__animation {
+        width: 50%;
+    }
+
+    .cartoon-section .cartoon-section__item-number {
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__plus-network{
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__social-network {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 5px;
+        text-align: initial;
+        background-color: var(--yellow);
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 25px 10px 0px;
+    }
+
+    .cartoon-section .cartoon-section__fab {
+        height: auto;
+        width: 50%;
+    }
+
+    .cartoon-section .cartoon-section__messages {
+        display: block;
+        width: 50%;
+    }
+
+    .cartoon-section .cartoon-section__messages-item {
+        background-color: var(--honey);
+        color: #A09F9F;
+        margin-bottom: 20px;
+        font-size: 12px;
+        padding: 5px 15px 5px 10px;
+        border-radius: 10px;
+    }
+
+    .cartoon-section .cartoon-section__messages-field {
+        position: relative;
+    }
+
+    .cartoon-section .cartoon-section__messages-field--my-message .cartoon-section__messages-item {
+        background-color: var(--white);
+    }
+
+    .cartoon-section .cartoon-section__messages-part {
+        position: absolute;
+        top: calc(50% - 7px);
+        left: -5px;
+        width: 0; 
+        height: 0; 
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent; 
+        
+        border-right: 7px solid var(--honey); 
+    }
+
+    .cartoon-section .cartoon-section__messages-field--my-message .cartoon-section__messages-part {
+        border-right-color: var(--white);
+    }
+
+    .cartoon-section .cartoon-section__messages-sender {
+        display: flex;
+    }
+
+    .cartoon-section .cartoon-section__sender-field,
+    .cartoon-section .cartoon-section__button {
+        border: 1px solid var(--light-orange);
+        cursor: pointer;
+    }
+
+    .cartoon-section .cartoon-section__sender-field {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        width: 80%;
+    }
+
+    .cartoon-section .cartoon-section__button {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background-image: linear-gradient(var(--orange), var(--dark-orange));
+        color: var(--white);
+        font-size: 12px;
+        border-left: none;
+        width: 20%;
+    }
+
+    .cartoon-section .cartoon-section__button:active {
+        background-image: none;
+        background-color: var(--medium-orange);
+    }
+
+    .cartoon-section .cartoon-section__date {
+        display: none;
+    }
+
+    .cartoon-section .cartoon-section__scroll-bar {
+        display: none;
+    }
+}
